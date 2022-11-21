@@ -1,2 +1,28 @@
 # Linear_Algebra
-the file test 
+
+Linear Algebra is my first attempt to upload programs in Python programming language.
+
+In the first program I uploaded, named mat_mult.py, I made a program in which the users enter the dimensions of the matrices they want to multiply, and the program examines whether the multiplication of matrices is done and outputs the result with the corresponding new dimensions.
+
+You can learn more about linear algebra at the following URLs:
+
+https://en.wikipedia.org/wiki/Linear_algebra
+
+https://www.britannica.com/science/linear-algebra
+
+Also, you can learn more about matrix multiplication at the following URLs:
+
+https://en.wikipedia.org/wiki/Matrix_multiplication
+
+https://www.mathsisfun.com/algebra/matrix-multiplying.html
+
+
+# Required python modules
+
+Make sure you have the following python packages installed before running the application:
+
+numpy (https://pypi.org/project/numpy/)
+
+# Following projects 
+
+The projects that follow will concentrate on the inversion of a matrix as well as reading program files with data and creating matrices of the databases.
