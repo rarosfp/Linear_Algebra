@@ -80,9 +80,9 @@ else:
 
 # definε the function of matrix multiplication
 #
-def matmultiply(mat1,mat2):
+def mat_multiplication(matrix1,matrix2):
     try:
-        result=np.matmul(mat1, mat2)
+        result=np.matmul(matrix1, matrix2)
         message="Multiplication of matrices completed!"
         dim=result.shape
     except:
@@ -91,7 +91,7 @@ def matmultiply(mat1,mat2):
 
 # call the function of matmultiply
 #
-message, result, dim=matmultiply(mat_1,mat_2)
+message, result, dim=mat_multiplication(mat_1,mat_2)
 
 # call the function of matmultiply
 #
