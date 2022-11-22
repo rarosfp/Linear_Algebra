@@ -28,6 +28,11 @@ UPDATE NEW BETA (b-01):
 In this program named det_of_matrix.py. I made a program in which users enter the dimensions of the tables they want, and the program builds the table based on the dimensions given by the user. And then it finds the determinant for each matrix. Also, the program examines whether the user has correctly entered the elements of the table; if not, it asks him to enter them correctly based on the dimensions.
 
 
+You can learn more about Matrix Determinant at the following URLs:
+
+https://en.wikipedia.org/wiki/Determinant
+
+https://www.mathsisfun.com/algebra/matrix-determinant.html
 
 # Required python modules
 
