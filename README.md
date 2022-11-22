@@ -18,7 +18,7 @@ https://en.wikipedia.org/wiki/Matrix_multiplication
 
 https://www.mathsisfun.com/algebra/matrix-multiplying.html
 
-UPDATE beta (V-b1):
+UPDATE NEW BETA (b-01):
 
 -Fix bug with the second column of the matrix multiplication  
 -Add a new addition, now the program checks if the user enters the correct number of observations according to the dimensions of the table; otherwise, it asks the user to enter the n number of observations from the beginning.
