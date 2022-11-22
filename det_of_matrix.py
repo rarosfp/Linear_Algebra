@@ -17,21 +17,25 @@ import numpy as np
 # For the dimensions of the first matrix
 #
 print('\nImport the number of Rows and Columns for the first Matrix\n',)
-R1 = int(input("\nEnter the number of rows: "))
-C1 = int(input("\nEnter the number of columns: "))
-x1 = (R1,C1)
+R = int(input("\nEnter the number of rows: "))
+C = int(input("\nEnter the number of columns: "))
+
 # For the entries of the first matrix
 #
 print("\nEnter the entries in a single line (separated by space): ")
 
-mat_1 = list(map(int, input().split()))
+mat = list(map(int, input().split()))
   
-# For printing the first matrix
+# For the matrix
 #
-mat_1 = np.array(mat_1).reshape(R1, C1)
-print('\nThe first matrix is: \n\n', mat_1)
+mat = np.array(mat).reshape(R, C)
 
-# For printing the first matrix dimensions
+
+# For matrix dimensions
 #
-dim_1=mat_1.shape
-print('\nThe first matrix dimensios are: \n\n', dim_1)
+dim=mat.shape
+
+# For print the Determinant of the matrix
+
+print(dim)
+
