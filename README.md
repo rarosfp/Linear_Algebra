@@ -1,6 +1,6 @@
 # Linear Algebra
 
-Linear Algebra is my first attempt to upload programs in Python programming language.
+Linear Algebra is my first attempt to upload programs in the Python programming language. I create the same tools in the domain of linear algebra in this repository.
 
 # Matrix Multiplication
 
