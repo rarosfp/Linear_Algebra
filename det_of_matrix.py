@@ -21,21 +21,25 @@ R = int(input("\nEnter the number of rows: "))
 C = int(input("\nEnter the number of columns: "))
 
 # For the entries of the first matrix
-#
 print("\nEnter the entries in a single line (separated by space): ")
 
-mat = list(map(int, input().split()))
+matrix = list(map(int, input().split()))
   
 # For the matrix
-#
-mat = np.array(mat).reshape(R, C)
+matrix = np.array(matrix).reshape(R, C)
+
+# Matrix dimensions
+dim=matrix.shape
+
+# Displaying the Matrix
+print("Numpy Matrix is:\n")
+print(matrix)
 
 
-# For matrix dimensions
-#
-dim=mat.shape
+# calculating the determinant of matrix
+det = np.linalg.det(matrix)
+  
+print("\nDeterminant of given ",dim ," matrix is: \n")
+print(int(det))
 
-# For print the Determinant of the matrix
-
-print(dim)
 
