@@ -1,4 +1,4 @@
-# Linear_Algebra
+# Linear Algebra
 
 Linear Algebra is my first attempt to upload programs in Python programming language.
 
