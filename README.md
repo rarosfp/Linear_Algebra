@@ -2,6 +2,8 @@
 
 Linear Algebra is my first attempt to upload programs in Python programming language.
 
+# Matrix Multiplication
+
 In the first program I uploaded, named mat_mult.py, I made a program in which the users enter the dimensions of the matrices they want to multiply, and the program examines whether the multiplication of matrices is done and outputs the result with the corresponding new dimensions.
 
 You can learn more about linear algebra at the following URLs:
@@ -16,6 +18,10 @@ https://en.wikipedia.org/wiki/Matrix_multiplication
 
 https://www.mathsisfun.com/algebra/matrix-multiplying.html
 
+UPDATE beta (V-b1):
+
+-Fix bug with the second column of the matrix multiplication  
+-Add a new addition, now the program checks if the user enters the correct number of observations according to the dimensions of the table; otherwise, it asks the user to enter the n number of observations from the beginning.
 
 # Required python modules
 
