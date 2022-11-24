@@ -34,6 +34,8 @@ https://en.wikipedia.org/wiki/Determinant
 
 https://www.mathsisfun.com/algebra/matrix-determinant.html
 
+Matrix Addition Program
+
 # Required python modules
 
 Make sure you have the following python packages installed before running the application:
