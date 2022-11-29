@@ -72,7 +72,7 @@ if x1 == x2:
     print('\nThe Second matrix dimensios are: \n', dim_2)
 
 else:
-    print('\nCalculation error!\n\nIn matrix multiplication, the columns of Matrix A must equal the rows of Matrix B. (x*z)(z*y)=(x*y)')
+    print('\nCalculation error!\n\nIn matrix addition, the dimensions of Matrix A must equal with the dimensions of Matrix B.')
     print('\n\nImport again the number of Rows and Columns for the new Matrix\n')
     R2 = int(input("\nEnter the number of rows: "))
     C2 = int(input("\nEnter the number of columns: "))
