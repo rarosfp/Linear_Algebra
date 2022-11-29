@@ -71,34 +71,31 @@ if x1 == x2:
     dim_2=mat_2.shape
     print('\nThe Second matrix dimensios are: \n', dim_2)
 
-else:
-    print('\nCalculation error!\n\nIn matrix addition, the dimensions of Matrix A must equal with the dimensions of Matrix B.')
-    print('\n\nImport again the number of Rows and Columns for the new Matrix\n')
+while x1 != x2:
+    print("\nError! The addition of the matrix need the matrixes to have the same dimensions ")
     R2 = int(input("\nEnter the number of rows: "))
     C2 = int(input("\nEnter the number of columns: "))
     x2=(R2, C2)
-    num_in_mat2= R2 * C2
+    num_in_mat2= R2 * C2 # calculate the elements in the second matrix
+    mat_2 = list(map(int, input().split()))
+    i = len(mat_2)
     
-    if x1 == x2:
-        print("\nEnter the entries in a single line (separated by space): ")
+    while num_in_mat2 != i :
+        print("\nThe Matrix with dimensions ",(R2, C2)," need ", num_in_mat2 ," of entries! \n\nEnter ",num_in_mat2 ," entries again in a single line (separated by space): ")
         mat_2 = list(map(int, input().split()))
         i = len(mat_2)
-    
-        while num_in_mat2 != i :
-            print("\nThe Matrix with dimensions ",(R2, C2)," need ", num_in_mat2 ," of entries! \n\nEnter ",num_in_mat2 ," entries again in a single line (separated by space): ")
-            mat_2 = list(map(int, input().split()))
-            i = len(mat_2)
-        # For printing the second matrix
-        #
-        mat_2 = np.array(mat_2).reshape(C2, R2)
-        print('\nThe Second matrix is: \n', mat_2)
-        # For printing the first matrix dimensions
-        #
-        dim_2=mat_2.shape
-        print('\nThe Second matrix dimensios are: \n', dim_2)
+        
+    # For printing the second matrix
+    #
+    mat_2 = np.array(mat_2).reshape(R2, C2)
+    print('\nThe Second matrix is: \n', mat_2)
+    # For printing the first matrix dimensions
+    #
+    dim_2=mat_2.shape
+    print('\nThe Second matrix dimensios are: \n', dim_2)
 
 # ---- Add the matricies ---- #
 
 result = np.array(mat_1) + np.array(mat_2)
  
-print("\nThe resultant matrix is:\n\n",result)
+print("\nThe resalt of the additions of this two Matrixes is:\n\n",result)
