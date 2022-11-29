@@ -177,7 +177,7 @@ else:
 
 # ---- Multiply the matricies ---- #
 
-# definε the function of matrix multiplication
+# define the function of matrix multiplication
 #
 def mat_multiplication(matrix1,matrix2):
     try:
