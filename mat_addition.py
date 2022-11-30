@@ -98,4 +98,5 @@ while x1 != x2:
 
 result = np.array(mat_1) + np.array(mat_2)
  
-print("\nThe resalt of the additions of this two Matrixes is:\n\n",result)
+print("\nThe result of the additions of this two Matrixes is:\n\n",result)
+input()
