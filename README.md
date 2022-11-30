@@ -18,12 +18,13 @@ https://en.wikipedia.org/wiki/Matrix_multiplication
 
 https://www.mathsisfun.com/algebra/matrix-multiplying.html
 
-UPDATE NEW BETA (b-01):
+UPDATE NEW BETA (v-03):
 
--Fix bug with the second column of the matrix multiplication  
--Add a new addition, now the program checks if the user enters the correct number of observations according to the dimensions of the table; otherwise, it asks the user to enter the n number of observations from the beginning.
+--Fixed a bug in program termination
 
 # Matrix Multiplication with Number Program
+
+
 
 # Matrix Determinant Program
 
@@ -36,7 +37,15 @@ https://en.wikipedia.org/wiki/Determinant
 
 https://www.mathsisfun.com/algebra/matrix-determinant.html
 
+UPDATE NEW BETA (v-02):
+
+--Fixed a bug in program termination
+
 # Matrix Addition Program
+
+UPDATE NEW BETA (v-02):
+
+--Fixed a bug in program termination
 
 # Required python modules
 
