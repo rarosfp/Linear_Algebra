@@ -197,5 +197,5 @@ message, result, dim=mat_multiplication(mat_1,mat_2)
 print('\n',message)
 print("\nThe resultant matrix is:\n\n",result)
 print("\nThe dimensions of the resultant matrix are:\n\n",dim)
-
+input()
 
