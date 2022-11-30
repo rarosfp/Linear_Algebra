@@ -23,6 +23,8 @@ UPDATE NEW BETA (b-01):
 -Fix bug with the second column of the matrix multiplication  
 -Add a new addition, now the program checks if the user enters the correct number of observations according to the dimensions of the table; otherwise, it asks the user to enter the n number of observations from the beginning.
 
+# Matrix Multiplication with Number Program
+
 # Matrix Determinant Program
 
 In this program named det_of_matrix.py. I made a program in which users enter the dimensions of the tables they want, and the program builds the table based on the dimensions given by the user. And then it finds the determinant for each matrix. Also, the program examines whether the user has correctly entered the elements of the table; if not, it asks him to enter them correctly based on the dimensions.
