@@ -54,6 +54,7 @@ N = int(input("\nEnter the number: "))
 #
 result = N * mat_1
 print('\n The result of multiplication between the matrix and the number ', N, ' is: \n\n', result)
+input()
 
 
 
