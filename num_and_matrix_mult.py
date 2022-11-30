@@ -22,7 +22,7 @@ C1 = int(input("\nEnter the number of columns: "))
 x1 = (R1, C1)
 num_in_mat1= R1 * C1 # calculate the elements in the matrix
 
-# For the entries of the first matrix
+# For the entries of the matrix
 #
 print("\nEnter the entries in a single line (separated by space): ")
 
@@ -30,19 +30,19 @@ mat_1 = list(map(int, input().split()))
 i = len(mat_1)
 
 while num_in_mat1 != i :
-    # For the entries of the first matrix
+    # For the entries of the matrix
     print("\nThe Matrix with dimensions ",(R1, C1)," need ", num_in_mat1 ," of entries! \n\nEnter ",num_in_mat1 ," entries again in a single line (separated by space): ")
     mat_1 = list(map(int, input().split()))
     i = len(mat_1)
-# For printing the first matrix
+# For printing the matrix
 #
 mat_1 = np.array(mat_1).reshape(R1, C1)
-print('\nThe first matrix is: \n\n', mat_1)
+print('\nThe matrix is: \n\n', mat_1)
 
-# For printing the first matrix dimensions
+# For printing the matrix dimensions
 #
 dim_1=mat_1.shape
-print('\nThe first matrix dimensios are: \n\n', dim_1)
+print('\nThe matrix dimensios are: \n\n', dim_1)
 
 
 # ---- Import the number of multiplication in the program ---- #
@@ -51,3 +51,11 @@ print('\nImport the number of multiplication in the program. \n',)
 N = int(input("\nEnter the number: "))
 
 # For multiply the matrix with the number
+#
+result = N * mat_1
+print('\n The result of multiplication between the matrix and the number ', N, ' is: \n\n', result)
+
+
+
+
+
