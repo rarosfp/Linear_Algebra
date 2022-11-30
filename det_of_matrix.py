@@ -55,5 +55,5 @@ print(matrix)
 det = np.linalg.det(matrix)
 print("\nDeterminant of given ",dim ," matrix is: \n")
 print(int(det))
-
+input()
 
